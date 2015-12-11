@@ -24,7 +24,7 @@ import tools
 #-----------------------------------------------------------------------------#
 # Specify VGG-19 convnet location here
 #-----------------------------------------------------------------------------#
-path_to_vgg = '/ais/gobi3/u/rkiros/vgg/vgg19.pkl'
+path_to_vgg = './vgg19.pkl'
 #-----------------------------------------------------------------------------#
 
 def retrieve_captions(model, net, captions, cvecs, file_name, k=5):
